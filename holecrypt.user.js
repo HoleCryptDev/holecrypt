@@ -69,7 +69,7 @@
   const POST = '<form class="post-form box"><div class="post-form-bar"><label>图片';
   const SETTINGS_FORM = `
 <div class="box">
-  <p><b>HoleCrypt 密钥管理</b>
+  <p><b><a target="_blank" href="https://github.com/HoleCryptDev/holecrypt">HoleCrypt</a> 密钥管理</b>
   </p><p>已有的密钥对：<select name="rsa-keys" id="rsa-keys" class="config-select">
   <option value="A">A</option>
 </select>
@@ -81,11 +81,13 @@
   <button type="button" onclick="window.HOLECRYPT.downloadPubkey()">查看公钥</button>
   <button type="button" onclick="window.HOLECRYPT.downloadPrikey()">查看私钥<font color="red">（危险！）</font></button>
   </p>
+
+  <p>当前版本：0.1</p>
 </div>
 `;
   const POST_FORM = `
 <div class="box">
-  <div class="post-form-bar">加密选项 Powered by HoleEncrypt</div>
+  <div class="post-form-bar">加密选项</div>
   <p>
   选择要使用的密钥对：
 <select class="config-select" id="rsa-keys">
@@ -99,6 +101,7 @@
   <button type="button" onclick="window.HOLECRYPT.encryptContent()">用公钥加密内容<font color='red'>（不可逆！）</font></button>
   <button type="button" onclick="window.HOLECRYPT.signContent()">用私钥签名内容</button>
   </p>
+  <p>Powered by <a target="_blank" href="https://github.com/HoleCryptDev/holecrypt">HoleCrypt</a> </p>
 </div>
 `;
   const POST_CHECKSIGN = `
