@@ -70,7 +70,7 @@
   const SETTINGS_FORM = `
 <div class="box">
   <p><b>HoleCrypt 密钥管理</b>
-  </p><p>已有的密钥对（红色表示有私钥）：<select name="rsa-keys" id="rsa-keys" class="config-select">
+  </p><p>已有的密钥对：<select name="rsa-keys" id="rsa-keys" class="config-select">
   <option value="A">A</option>
 </select>
   </p><p></p>
