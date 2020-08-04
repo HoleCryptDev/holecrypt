@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         HoleCrypt
 // @namespace    https://github.com/HoleCryptDev/holecrypt
-// @version      0.1
+// @version      0.1.1
 // @description  PGP encryption for THUHole.
 // @author       HoleCryptDev
 // @match        https://thuhole.com/
@@ -92,7 +92,7 @@
   <button type="button" onclick="window.HOLECRYPT.downloadPrikey()">查看私钥<font color="red">（危险！）</font></button>
   </p>
 
-  <p>当前版本：0.1</p>
+  <p>当前版本：0.1.1</p>
 </div>
 `;
     const POST_FORM = `
